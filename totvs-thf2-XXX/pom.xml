@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <groupId>com.totvs.thf</groupId>
+    <artifactId>totvs-thf2-parent</artifactId>
+    <version>11.5.X-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.totvs.thf</groupId>
+  <artifactId>totvs-thf2-XXX-parent</artifactId>
+  <version>11.5.X-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+    <module>thf2</module>
+    <module>war-jboss</module>
+    <module>war-wildfly</module>
+  </modules>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>maven-snapshots</id>
+      <url>http://porto:8081/repository/maven-snapshots</url>
+      <uniqueVersion>false</uniqueVersion>
+    </snapshotRepository>
+  </distributionManagement>
+  <properties>
+    <thf2.version>11.5.X-SNAPSHOT</thf2.version>
+    <zooms.version>11.5.X-SNAPSHOT</zooms.version>
+    <maven.build.timestamp.format>yyyy/MM/dd HH:mm</maven.build.timestamp.format>
+  </properties>
+</project>
