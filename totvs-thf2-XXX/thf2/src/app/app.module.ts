@@ -4,8 +4,8 @@ import { CommonModule, LocationStrategy, HashLocationStrategy } from '@angular/c
 import { FormsModule } from '@angular/forms';
 import { PoModule } from '@po-ui/ng-components';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { TotvsGpsServicesModule } from 'totvs-gps-services';
-import { TotvsGpsControlsModule } from 'totvs-gps-controls';
+// import { TotvsGpsServicesModule } from 'totvs-gps-services';
+// import { TotvsGpsControlsModule } from 'totvs-gps-controls';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
@@ -16,8 +16,8 @@ const modules = [
   BrowserAnimationsModule,
   AppRoutingModule,
   PoModule,
-  TotvsGpsServicesModule,
-  TotvsGpsControlsModule
+//   TotvsGpsServicesModule,
+//   TotvsGpsControlsModule
 ];
 const components = [
 ];
